@@ -108,7 +108,7 @@ This will create a copy of this repository in your account.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/clone.png" alt="clone the repository" />
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on SSH tab and then click the _copy url to clipboard_ icon.
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button, then on the SSH tab, and click the _copy URL to clipboard_ icon.
 
 Open a terminal and run the following git command:
 
@@ -116,7 +116,7 @@ Open a terminal and run the following git command:
 git clone "url you just copied"
 ```
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+where "url you just copied" (without the quotation marks) is the URL to this repository (your fork of this project). See the previous steps to obtain the URL.
 
 <img align="right" width="300" src="https://firstcontributions.github.io/assets/Readme/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
@@ -151,7 +151,7 @@ git switch -c add-alonzo-church
 <details>
 <summary> <strong>If you get any errors using git switch, click here:</strong> </summary>
 
-If the error message "Git: `switch` is not a git command. See `git –help`" appears, it's likely because you're using an older version of git.
+If the error message "Git: `switch` is not a git command. See `git --help`" appears, it's likely because you're using an older version of git.
 
 In this case, try to use `git checkout` instead:
 
@@ -163,7 +163,7 @@ git checkout -b your-new-branch-name
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Now open the `Contributors.md` file in a text editor and add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Then save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
@@ -201,8 +201,8 @@ replacing `your-branch-name` with the name of the branch you created earlier.
   remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
   fatal: Authentication failed for 'https://github.com/&lt;your-username&gt;/first-contributions.git/'</pre>
   Go to [GitHub's tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on generating and configuring an SSH key to your account.
-
-  Also, you might want to run 'git remote -v' to check your remote address.
+  
+  Also, you might want to run `git remote -v` to check your remote address.
   
   If it looks anything like this:
   <pre>origin	https://github.com/your-username/your_repo.git (fetch)
@@ -212,7 +212,7 @@ replacing `your-branch-name` with the name of the branch you created earlier.
   ```bash
   git remote set-url origin git@github.com:your-username/your_repo.git
   ```
-  Otherwise you'll still get prompted for username and password and get authentication error.
+  Otherwise, you'll still get prompted for username and password and receive an authentication error.
 </details>
 
 ## Submit your changes for review
@@ -225,11 +225,11 @@ Now submit the pull request.
 
 <img style="float: right;" src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the main branch of this project. You will get a notification email once the changes have been merged.
+Soon your changes will be merged into the main branch of this project. You will receive a notification email once the changes have been merged.
 
 ## Where to go from here?
 
-Congrats! You just completed the standard _fork -> clone -> edit -> pull request_ workflow that you'll often encounter as a contributor!
+Congratulations! You just completed the standard _fork → clone → edit → pull request_ workflow that you'll often encounter as a contributor!
 
 Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
 
